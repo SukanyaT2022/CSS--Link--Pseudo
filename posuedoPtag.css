@@ -1,0 +1,20 @@
+p{
+    color:brown;
+    background-color: aqua;
+}
+
+.target{
+color: blue;
+background-color: bisque;
+
+}
+
+p:not(.para){
+color: blueviolet;
+background-color: peru;
+
+}
+
+/*p: not use for change everyhting except para class*/
+
+

@@ -1,0 +1,25 @@
+a{
+    color: brown;
+    display: block;/*make link linf up*/
+    padding: 10px 40px;
+}
+
+p{
+    width: 50%;
+    margin: 20px 40px;
+  padding: 30px 50px;
+}
+/*only p will target for the whole p section for the whole page*/
+p:target{
+    background-color: pink;   
+}
+/*p target will effect only section 
+ex when we click html it will be pink only html section*/
+/*
+p:not(#HTML){
+
+    color: blueviolet;
+    background-color: aqua;
+}
+
+*/  
